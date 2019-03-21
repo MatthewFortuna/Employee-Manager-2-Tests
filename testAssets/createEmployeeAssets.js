@@ -1,0 +1,40 @@
+let clickByText = require('../testAssets/changeRetrieveAssets')
+module.exports = (ePage, {nameValue, numberValue, titleValue}) => {
+    ePage
+    .waitForElementPresent('@addEmployee', 5000)
+    .click('@addEmployee')
+    .pause(1500)
+    clickByText(ePage, 'New Employee')
+    ePage
+    .waitForElementPresent('@nameEntry')
+    .clearValue('@nameEntry')
+    .setValue('@nameEntry', nameValue)
+    .clearValue('@phoneEntry')
+    .setValue('@phoneEntry', numberValue)
+    .clearValue('@titleEntry')
+    .setValue('@titleEntry', titleValue)
+    .click('@save')
+    ePage.expect.element('@nameEntry').value.to.equal(nameValue).before(5000)
+    ePage.expect.element('@phoneEntry').value.to.equal(numberValue).before(5000)
+    ePage.expect.element('@titleEntry').value.to.equal(titleValue).before(5000)
+
+    ePage
+    .waitForElementPresent('@addEmployee', 5000)
+    .click('@addEmployee')
+    .pause(1500)
+    clickByText(ePage, 'New Employee')
+    ePage
+    .waitForElementPresent('@nameEntry')
+    .clearValue('@nameEntry')
+    .setValue('@nameEntry', 'Any')
+    .clearValue('@phoneEntry')
+    .setValue('@phoneEntry', '2738473827')
+    .clearValue('@titleEntry')
+    .setValue('@titleEntry', 'dubster')
+    .click('@save')
+    clickByText(ePage, nameValue)
+    ePage.expect.element('@nameEntry').value.to.equal(nameValue).before(5000)
+    ePage.expect.element('@phoneEntry').value.to.equal(numberValue).before(5000)
+    ePage.expect.element('@titleEntry').value.to.equal(titleValue).before(5000)
+    ePage.pause(2000)
+ }

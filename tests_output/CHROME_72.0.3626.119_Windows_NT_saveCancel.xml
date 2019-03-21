@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="2">
+
+  <testsuite name="saveCancel"
+    errors="0" failures="0" hostname="" id="" package="saveCancel" skipped="0"
+    tests="2" time="4.677" timestamp="">
+  
+    <testcase name="Save" classname="saveCancel" time="2.942" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Cancel" classname="saveCancel" time="1.735" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

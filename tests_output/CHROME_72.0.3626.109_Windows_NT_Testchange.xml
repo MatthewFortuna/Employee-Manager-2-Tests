@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="2"
+            failures="0"
+            tests="1">
+
+  <testsuite name="Testchange"
+    errors="2" failures="0" hostname="" id="" package="Testchange" skipped="2"
+    tests="1" time="0.02100" timestamp="">
+  
+    <testcase name="It can add an employee" classname="Testchange" time="0.02100" assertions="0">
+    </testcase>
+  
+
+  
+
+  
+    
+    <testcase
+      name="It can edit a new employee" classname="Testchange">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="It can edit an existing employee" classname="Testchange">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

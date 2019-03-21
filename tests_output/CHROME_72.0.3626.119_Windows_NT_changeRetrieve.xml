@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="changeRetrieve"
+    errors="0" failures="1" hostname="" id="" package="changeRetrieve" skipped="0"
+    tests="1" time="6.862" timestamp="">
+  
+    <testcase name="Change Retrieve" classname="changeRetrieve" time="6.862" assertions="2">
+
+      <failure message="Expected element &lt;Element [name=@nameEntry]&gt; to have value equal: &#34;Jenny Walker&#34; - element was not found - expected [0;32m&#34;present&#34;[0m but got: [0;31m&#34;not present&#34;[0m">    at Object.Change Retrieve (C:\Users\werty\OneDrive\employeeManager\Tests\changeRetrieve.js:24:22)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

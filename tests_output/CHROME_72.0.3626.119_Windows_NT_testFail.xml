@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="4">
+
+  <testsuite name="testFail"
+    errors="0" failures="1" hostname="" id="" package="testFail" skipped="0"
+    tests="4" time="15.32" timestamp="">
+  
+    <testcase name="Under Fill All" classname="testFail" time="2.539" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Under Fill Sequential" classname="testFail" time="2.274" assertions="10">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Over Fill All" classname="testFail" time="2.003" assertions="4">
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Over Fill Sequential" classname="testFail" time="8.505" assertions="10">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Expected element &lt;Element [name=@titleEntry]&gt; to have value equal: &#34;Director of Engineering&#34; - expected [0;32m&#34;equal &#39;Director of Engineering&#39;&#34;[0m but got: [0;31m&#34;asdjfiulasdbnfluiausndfliuasdnflausdnfklausdnflkausdfnaklsdfuandsflkasudnfaklsudfnalksdf&#34;[0m">    at module.exports (C:\Users\werty\OneDrive\employeeManager\testAssets\testFailAssets.js:15:18)
+    at Object.Over Fill Sequential (C:\Users\werty\OneDrive\employeeManager\Tests\testFail.js:95:9)</failure>
+
+    <failure message="    at module.exports (C:\Users\werty\OneDrive\employeeManager\testAssets\testFailAssets.js:15:18)">    at Object.Over Fill Sequential (C:\Users\werty\OneDrive\employeeManager\Tests\testFail.js:95:9)</failure>
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

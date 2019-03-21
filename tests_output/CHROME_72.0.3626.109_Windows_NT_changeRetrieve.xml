@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="changeRetrieve"
+    errors="0" failures="1" hostname="" id="" package="changeRetrieve" skipped="0"
+    tests="1" time="6.578" timestamp="">
+  
+    <testcase name="Change Retrieve" classname="changeRetrieve" time="6.578" assertions="2">
+
+      <failure message="Expected element &lt;Element [name=@nameEntry]&gt; to have value equal: &#34;Jenny Walker&#34; - expected [0;32m&#34;equal &#39;Jenny Walker&#39;&#34;[0m but got: [0;31m&#34;Bernice Ortiz&#34;[0m">    at Object.Change Retrieve (C:\Users\werty\OneDrive\employeeManager\Tests\changeRetrieve.js:32:22)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>
